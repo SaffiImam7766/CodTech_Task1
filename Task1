@@ -1,0 +1,42 @@
+
+import java.util.Scanner;
+
+//Simple Calculator
+
+public class Task1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" First Number");
+        double num1=sc.nextDouble();
+        System.out.println("Enter the operator :- ' +, -, *, / '");
+        char operator=sc.next().charAt(0);
+        System.out.println(" Second Number");
+        double num2=sc.nextDouble();
+       double result = 0;
+
+       switch (operator){
+           case '+':
+               result=num1+num2;
+               break;
+           case '-':
+               result=num1-num2;
+               break;
+           case '*':
+               result=num1*num2;
+               break;
+           case '/':
+               if (num2!=0){
+               result=num1/num2;
+               }
+               else System.out.println("Error! Division by zero");
+               break;
+           default:
+               System.out.println("Invalid Operator!");
+               return;
+       }
+
+        System.out.println("The result = "+result);
+
+
+    }
+}
