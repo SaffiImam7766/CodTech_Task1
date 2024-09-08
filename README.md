@@ -1,9 +1,9 @@
-Name: SAFFI IMAM
-Company: CODTECH IT SOLUTIONS 
-ID: CT08DS7405
-Domain: JAVA
-Duration: 23th AUGUST to 23th SEPTEMBER 
-Mentor: NEELA SANTHOSH KUMAR
+Name: SAFFI IMAM  
+Company: CODTECH IT SOLUTIONS   
+ID: CT08DS7405  
+Domain: JAVA  
+Duration: 23th AUGUST to 23th SEPTEMBER   
+Mentor: NEELA SANTHOSH KUMAR  
 
 Overview of a Simple Java Calculator Program
 
